@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" class="himg" href="img/img1.jpg">
+    <title>My page</title>
+    <meta charset="utf-8"/>
+    <meta http-equip="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <!--<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/icons/fontawesome_icons_intro.asp"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleboot.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    <!--<div class="jumbotron" style:"padding-bottom: 50px">-->
+        <!--<img src="img/img1.jpg" class="img.responsive" alt="Main_logo" width="50" height="70"`>-->
+        <h1 class="text-danger text-white text-center padding-bottom:10px">NATURE CONSERVANCY</h1>
+    </header>      
+         
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <section>
+                <a class="navbar-brand" href="#"><strong>Logo</strong></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#home"><strong>About</strong></a></li>
+                    <!--<li><a href="#band">BAND</a></li>
+                    <li><a href="#tour">TOUR</a></li>
+                    <li><a href="#contact">CONTACT</a></li>-->
+                    <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>Where we work</strong>
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">India</a></li>
+                        <li><a href="#">Africa</a></li>
+                        <li><a href="#">America</a></li> 
+                        <li><a href="#">Pacific Islands</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>Jobs</strong>
+                          <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Data Analyst</a></li>
+                            <li><a href="#">Interactive Designer</a></li>
+                            <li><a href="#">Senior manager IT</a></li> 
+                            <li><a href="#">Pacific Islands</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#home" padding-right:"10px">Success</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Achievement</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Views</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <h2>Why we're SUCCESSFULLY</h2>
+                        <p>It’s who we are and how we work that has made the Conservancy so successful — and makes us optimistic that we can expand that great conservation work to meet the challenges ahead:<br>
+                            <strong>-></strong>Everything we do is rooted in good science — aided by our hundreds of staff scientists. Dive deeper into our science.<br>
+                            <strong>-></strong>We pursue non-confrontational, pragmatic solutions to conservation challenges. Learn why we’re so effective.<br>
+                            <strong>-></strong>We partner with indigenous communities, businesses, governments, multilateral institutions, and other non-profits. Learn more about our partnerships.<br>
+                            <strong>-></strong>We have the support of more than 1 million members who enable us to continue working on a scale that matters and implement solutions that endure.</p>
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                            <h2>What we have made</h2>
+                            <p class="text-justify">
+                            We’ve protected more than 119 million acres of land and thousands of miles of rivers worldwide — and we operate more than 100 marine conservation projects globally.
+                            <br>We are impacting conservation in 72 countries — protecting habitats from grasslands to coral reefs, from Australia to Alaska to Zambia. See where we work.
+                            <br>We address threats to conservation involving climate change, access to clean water, ocean health, and everything in between. Learn how we’re responding.
+                            </p>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                            <h2>Feedback</h2>
+                            <p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                    Your Views
+                            </button>
+                                      
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                        <div class="modal-content">              
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Comments</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <p>Is our organization going good!</p>
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-ng-submit="modal">Yes</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </p>
+        </div>
+        </div>
+        <!--<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>-->
+        </ul>
+        </div>
+        </div>
+    </nav>          
+    <!--<nav class="navbar navbar-expand-sm bg-info mt-2 navbar-success">
+    Nav
+        <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link" href="#">About Us</a>
+            </li>
+            Dropdown1
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Where we work
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Africa</a>
+                    <a class="dropdown-item" href="#">Europe</a>
+                    <a class="dropdown-item" href="#">India</a>
+                </div>
+            </li>
+            Dropdown2
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Jobs
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Data Analyst</a>
+                    <a class="dropdown-item" href="#">Interactive designer</a>
+                    <a class="dropdown-item" href="#">Senior manager IT</a>
+                </div>
+            </li>
+        </ul>
+    </nav>-->
+<br>
+<!--Courosal-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+      
+              <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+      
+              <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/img2Northern-Vermont.jpg" alt="Los Angeles" width="1600" height="500" float="center" class="img.responsive">
+                </div>
+            <div class="carousel-item">
+                    <img src="img/img3.jpg" alt="Chicago" width="1600" height="500" float="center" class="img.responsive">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img4.jpeg" alt="New York" width="1600" height="500" float="center" class="img.responsive">
+            </div>
+        </div>
+      
+              <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+      
+        </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4" style="background-color: blueviolet" padding-right="15px">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1 class="m1">Virtues</h1>
+                </div>
+                <div class="panel-body">
+                    <img src="img/img5.png" alt="" width="290px" height="150px">
+                    <p class="text-justify">The <strong>mission</strong> of The Nature Conservancy is to conserve the lands and waters on which all life depends.
+                    <br>Our <strong>vision</strong> is a world where the diversity of life thrives, and people act to conserve nature for its own sake and its ability to fulfill our needs and enrich our lives.</p>
+                </div>
+                <div class="panel-footer">
+                    <button class="btn btn-lg">Know more</button>
+                </div>
+            </div> 
+        </div> 
+        <div class="col-sm-4" style="background-color: darkolivegreen" padding-right="15px" border="2px">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1 class="m1">Work Area</h1>
+                </div>
+                <div class="panel-body">
+                    <p class="text-justify">We work around the world to protect nature and preserve life for future generations<br>
+                    The Nature Conservancy works to protect the lands and waters on which all life depends in 72 countries around the world<br>
+                    We work with local governments, communities, and partner organizations in sharing our science-based and collaborative methods to ensure each region’s needs—for people and for nature—are best met<br>
+                    The regions include,
+                    </p>
+                    <ul>
+                        <li>Africa</li>
+                        <li>America</li>
+                        <li>Australia</li>
+                        <li>Caribbean</li>
+                    </ul>  
+                </div>
+                <div class="panel-footer">
+                    <button class="btn btn-lg">Know more</button>
+                </div>
+            </div> 
+        </div> 
+        <div class="col-sm-4" style="background-color: blueviolet" padding-right="15px">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1 class="m1">Know about us</h1>
+                </div>
+                <div class="panel-body">
+                    <p class="text-justify">We address the most urgent conservation challenges at the largest scale. Today, more of our natural world is at risk than ever before. So our work is crucial to keep vital habitats and unique species from being lost forever.
+                    <br>But we can’t achieve the large-scale conservation victories necessary without the support and involvement of those who share our passion for preserving our last great places.</p>
+                </div>
+                <div class="panel-footer">
+                    <button class="btn btn-lg">Know more</button>
+                </div>
+            </div> 
+        </div> 
+    </div>
+</div>
+<!--row4-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.6136794919!2d77.06890014662496!3d28.52721814446555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew+Delhi%2C+Delhi!5e0!3m2!1sen!2sin!4v1532038990746" width="100%" height="450" frameborder="0" style="padding-top: 15px" allowfullscreen></iframe>
+<footer class="text-center">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <section>
+                    <img src="img/img1.jpg" alt="footer-logo" width:"60px" height:"50px" float="left">
+                </section>
+            </div>
+            <div class="col-sm-5">        
+                <section>
+                    <h1>Contact</h1>
+                    <div>
+                        <p>
+                            <address>
+                            <strong>The Nature Conservancy</strong><br>
+                            <i class="fa fa-address-book"></i> 4245 North Fairfax Drive,<br>
+                            Suite 100,<br>
+                            Arlington<br>
+                            VA 22203-1606.<br>
+                            <i class="fa fa-phone"></i> (800) 628-6860 <br>
+                            <i class="fa fa-envelope-o"></i> member@tnc.org<br>
+                            </address>
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-2">            
+                <section>
+                    <div> 
+                        <ul class="list-unstyled list-inline">
+                                <li><a href="#">@facebook</a></li>
+                                <li><a href="#">@instagram</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</footer>    
+<script src="js/jquery.js" charset="utf-8"></script>
+<script src="js/bootstrap.min.js" charset="utf-8"></script>
+</div>
+</body>
+</html>
